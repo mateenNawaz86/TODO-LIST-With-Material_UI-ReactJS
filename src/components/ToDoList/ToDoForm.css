@@ -1,0 +1,64 @@
+.main-div {
+  padding: 2rem;
+}
+
+.heading {
+  text-align: center;
+  border-radius: 5px;
+}
+
+.heading h1 {
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  user-select: none;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.26);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.input-area {
+  margin-top: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-area input {
+  border: none;
+  outline: none;
+  line-height: 26px;
+  text-align: center;
+  border-bottom: 2px solid coral;
+  width: 80%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #444;
+  user-select: none;
+}
+
+.add_btn {
+  height: 40px;
+  background-color: #37e137 !important;
+  color: #fff !important ;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px !important;
+}
+
+.add_btn:hover {
+  background-color: #fff !important;
+  color: #37e137 !important;
+}
+
+.list-area {
+  margin-top: 1rem;
+}
+
+.list-area ul {
+  list-style: none;
+}
+
+#caption {
+  text-align: right;
+  user-select: none;
+  margin-top: 0.5rem;
+}

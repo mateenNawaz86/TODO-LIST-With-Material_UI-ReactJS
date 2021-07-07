@@ -1,0 +1,35 @@
+.items-style {
+  display: flex;
+}
+
+li {
+  margin-bottom: 1rem;
+  user-select: none;
+  font-size: 1.1rem;
+  color: #8A2BE2;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-left: 1rem;
+  text-decoration-color: #000;
+}
+
+.delete_btn {
+  background-color: #9d51d3 !important;
+  color: #fff !important ;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px !important;
+  cursor: pointer;
+}
+
+.delete_btn:hover {
+  background-color: #fff !important;
+  color: red !important;
+}
+
+.item-text {
+  text-decoration: none;
+}
+
+.item-text.active {
+  text-decoration: line-through;
+}
